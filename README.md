@@ -15,3 +15,12 @@
 - jade
 - sass
 - coffeescript
+
+# Setup
+
+    ./scripts/setup
+    npm start
+
+# Tests
+
+    npm test
