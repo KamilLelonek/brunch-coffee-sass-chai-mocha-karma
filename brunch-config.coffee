@@ -10,8 +10,6 @@ exports.config =
       joinTo:
         'javascripts/app.js': /^app/
         'javascripts/vendor.js': /^(vendor|bower_components)/
-      order:
-        before: ['vendor/underscore.js']
 
     stylesheets:
       joinTo:
