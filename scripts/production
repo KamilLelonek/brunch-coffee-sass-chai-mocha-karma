@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo 'Removing development packages'
+npm prune --production
+
+echo 'Installing production dependencies'
+npm install --production
+./node_modules/.bin/bower install --production
+
+echo 'Preparing production build'
+ENV=production ./node_modules/.bin/brunch build --production

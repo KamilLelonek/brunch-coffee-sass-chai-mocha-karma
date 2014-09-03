@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo 'Clearing public directory'
+rm -rf public
+
+echo 'Installing node dependencies'
+npm install
+
+echo 'Installing bower components'
+./node_modules/.bin/bower install

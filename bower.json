@@ -1,0 +1,21 @@
+{
+  "name": "",
+  "repo": "",
+  "version": "0.0.1",
+  "authors": [],
+  "description": "",
+  "keywords": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "sugar": "~1.4.1",
+    "momentjs": "~2.8.2"
+  }
+}
